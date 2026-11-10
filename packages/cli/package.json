@@ -1,0 +1,1 @@
+{"name":"@aadijs/cli","version":"0.1.0","type":"module","bin":{"aadi":"./bin/aadi.ts"},"exports":{".":"./src/index.ts"}}

@@ -1,0 +1,13 @@
+{
+  "name": "my-aadi-server",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "aadi dev",
+    "build": "aadi build",
+    "start": "aadi start",
+    "test": "aadi test"
+  },
+  "dependencies": {}
+}

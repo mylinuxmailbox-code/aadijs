@@ -1,0 +1,8 @@
+{
+  "name": "@aadijs/strato",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Strato — the standalone package manager built for absolute speed. Works with or without AadiJS.",
+  "bin": { "strato": "./bin/strato.ts" },
+  "exports": { ".": "./src/cli.ts", "./installer": "./src/installer.ts", "./resolver": "./src/resolver.ts" }
+}

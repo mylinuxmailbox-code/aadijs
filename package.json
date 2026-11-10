@@ -1,0 +1,19 @@
+{
+  "name": "aadijs-monorepo",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "AadiJS — the JavaScript ecosystem built for extreme speed and AI. Powered by Bun.",
+  "workspaces": ["packages/*"],
+  "bin": {
+    "aadi": "./packages/cli/bin/aadi.ts",
+    "strato": "./packages/strato/bin/strato.ts"
+  },
+  "scripts": {
+    "test": "bun test tests",
+    "compat": "bun packages/cli/bin/aadi.ts compat",
+    "bench": "bun benchmarks/run.ts",
+    "typecheck": "bunx tsc --noEmit"
+  },
+  "engines": { "bun": ">=1.2.0" }
+}
